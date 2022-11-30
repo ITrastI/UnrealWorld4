@@ -1,0 +1,7 @@
+{
+  "parent": "unreal_world:custom/skysword",
+  "textures": {
+    "0": "unreal_world:blocks/textureskysword",
+    "particle": "unreal_world:items/textureskysword"
+  }
+}

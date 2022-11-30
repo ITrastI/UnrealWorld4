@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "unreal_world:blocks/cloudblockfront",
+    "top": "unreal_world:blocks/cloudblockfront",
+    "side": "unreal_world:blocks/cloudslab"
+  },
+  "render_type": "translucent"
+}

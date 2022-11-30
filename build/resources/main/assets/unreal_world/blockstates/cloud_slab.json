@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "unreal_world:block/cloud_slab"
+    },
+    "type=top": {
+      "model": "unreal_world:block/cloud_slab_top"
+    },
+    "type=double": {
+      "model": "unreal_world:block/cloud_slab_full"
+    }
+  }
+}

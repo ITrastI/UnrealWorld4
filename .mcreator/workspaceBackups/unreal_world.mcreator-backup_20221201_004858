@@ -1,0 +1,221 @@
+{
+  "mod_elements": [
+    {
+      "name": "CloudBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloud_block"
+    },
+    {
+      "name": "CloudSlab",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloud_slab"
+    },
+    {
+      "name": "PieceOfCloud",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piece_of_cloud"
+    },
+    {
+      "name": "FireRune",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_rune"
+    },
+    {
+      "name": "WaterRune",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_rune"
+    },
+    {
+      "name": "WindRune",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wind_rune"
+    },
+    {
+      "name": "EarthRune",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_rune"
+    },
+    {
+      "name": "Coin",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin"
+    },
+    {
+      "name": "CabbleStoneBricks",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cabble_stone_bricks"
+    },
+    {
+      "name": "EnderSteak",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_steak"
+    },
+    {
+      "name": "StrangeStone",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_stone"
+    },
+    {
+      "name": "Ebaka",
+      "type": "livingentity",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebaka"
+    },
+    {
+      "name": "ToxicSubstanceIghrokZakanchivaietIspolzovaniiePriedmieta",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_substance_ighrok_zakanchivaiet_ispolzovaniie_priedmieta",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToxicSubstance",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_substance"
+    },
+    {
+      "name": "SkySword",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_sword"
+    },
+    {
+      "name": "SkyHekmet",
+      "type": "armor",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_hekmet",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Leave",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave"
+    },
+    {
+      "name": "StarIngot",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_ingot"
+    },
+    {
+      "name": "IfritCoal",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ifrit_coal"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.unreal_world.fire_rune": "Fire Rune",
+      "item.unreal_world.water_rune": "Water Rune",
+      "item.unreal_world.ender_steak": "Ender Steak",
+      "block.unreal_world.cabble_stone_bricks": "Cabble Stone Bricks",
+      "item.unreal_world.coin": "Coin",
+      "item.unreal_world.sky_hekmet_helmet": "Sky Шлем",
+      "item.unreal_world.piece_of_cloud": "Piece Of Cloud",
+      "item.unreal_world.sky_hekmet_leggings": "Sky Поножи",
+      "item.unreal_world.ifrit_coal": "Ifrit Coal",
+      "block.unreal_world.cloud_block": "Cloud Block",
+      "item.unreal_world.ebaka_spawn_egg": "Ebaka Spawn Egg",
+      "item.unreal_world.sky_hekmet_boots": "Sky Ботинки",
+      "item.unreal_world.toxic_substance": "Toxic Substance",
+      "entity.unreal_world.ebaka": "Ebaka",
+      "item.unreal_world.sky_hekmet_chestplate": "Sky Кираса",
+      "block.unreal_world.strange_stone": "Strange Stone",
+      "block.unreal_world.leave": "PinkLeaves",
+      "item.unreal_world.star_ingot": "Star Ingot",
+      "item.unreal_world.earth_rune": "Earth Rune",
+      "item.unreal_world.sky_sword": "Sky Sword",
+      "block.unreal_world.cloud_slab": "Cloud Slab",
+      "item.unreal_world.wind_rune": "Wind Rune"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "unreal_world",
+    "modName": "Unreal World",
+    "version": "1.0.0",
+    "author": "Гельб, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.unrealworld",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200346416
+}

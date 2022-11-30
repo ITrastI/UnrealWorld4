@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "unreal_world:blocks/cobblestonebricks",
+    "particle": "unreal_world:blocks/cobblestonebricks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "unreal_world:block/strange_stone"
+    }
+  }
+}

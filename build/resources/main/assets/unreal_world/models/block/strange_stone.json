@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "unreal_world:blocks/testtexture",
+    "particle": "unreal_world:blocks/testtexture"
+  },
+  "render_type": "solid"
+}
