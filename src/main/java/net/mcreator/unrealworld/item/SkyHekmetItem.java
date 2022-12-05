@@ -21,6 +21,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.Minecraft;
 
+import net.mcreator.unrealworld.client.model.Modelcustom_model;
 import net.mcreator.unrealworld.client.model.ModelSkyHelmet_Converted;
 import net.mcreator.unrealworld.client.model.ModelNagrudnik;
 
@@ -142,23 +143,46 @@ public abstract class SkyHekmetItem extends ArmorItem {
 
 	public static class Leggings extends SkyHekmetItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "unreal_world:textures/models/armor/ender_layer_2.png";
+			return "unreal_world:textures/entities/textureboots.png";
 		}
 	}
 
 	public static class Boots extends SkyHekmetItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+		}
+
+		@Override
+		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
+			consumer.accept(new IClientItemExtensions() {
+				@Override
+				@OnlyIn(Dist.CLIENT)
+				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("left_leg",
+							new Modelcustom_model(Minecraft.getInstance().getEntityModels().bakeLayer(Modelcustom_model.LAYER_LOCATION)).LeftLeg,
+							"right_leg",
+							new Modelcustom_model(Minecraft.getInstance().getEntityModels().bakeLayer(Modelcustom_model.LAYER_LOCATION)).RightLeg,
+							"head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					armorModel.crouching = living.isShiftKeyDown();
+					armorModel.riding = defaultModel.riding;
+					armorModel.young = living.isBaby();
+					return armorModel;
+				}
+			});
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "unreal_world:textures/models/armor/ender_layer_1.png";
+			return "unreal_world:textures/entities/textureboots.png";
 		}
 	}
 }

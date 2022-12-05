@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "unreal_world:blocks/toxic_planks",
+    "top": "unreal_world:blocks/toxic_planks",
+    "side": "unreal_world:blocks/toxic_planks"
+  },
+  "render_type": "solid"
+}

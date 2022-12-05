@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "unreal_world:blocks/toxic_planks"
+  },
+  "render_type": "solid"
+}

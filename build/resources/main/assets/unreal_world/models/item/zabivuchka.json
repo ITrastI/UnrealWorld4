@@ -1,0 +1,7 @@
+{
+  "parent": "unreal_world:custom/zabivuchka",
+  "textures": {
+    "0": "unreal_world:blocks/",
+    "particle": "unreal_world:items/zabivuchka"
+  }
+}

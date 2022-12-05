@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "unreal_world:fire_ingot_materials_ingot"
+    },
+    "1": {
+      "item": "unreal_world:fire_ingot_materials_ingot"
+    },
+    "2": {
+      "item": "unreal_world:fire_ingot_materials_ingot"
+    },
+    "3": {
+      "item": "unreal_world:fire_ingot_materials_ingot"
+    },
+    "5": {
+      "item": "unreal_world:fire_ingot_materials_ingot"
+    },
+    "6": {
+      "item": "unreal_world:fire_ingot_materials_ingot"
+    },
+    "8": {
+      "item": "unreal_world:fire_ingot_materials_ingot"
+    }
+  },
+  "result": {
+    "item": "unreal_world:fire_ingot_materials_armor_leggings",
+    "count": 1
+  }
+}

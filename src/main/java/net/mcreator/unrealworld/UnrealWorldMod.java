@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.unrealworld.init.UnrealWorldModItems;
+import net.mcreator.unrealworld.init.UnrealWorldModFeatures;
 import net.mcreator.unrealworld.init.UnrealWorldModEntities;
 import net.mcreator.unrealworld.init.UnrealWorldModBlocks;
 
@@ -53,6 +54,8 @@ public class UnrealWorldMod {
 		UnrealWorldModBlocks.REGISTRY.register(bus);
 		UnrealWorldModItems.REGISTRY.register(bus);
 		UnrealWorldModEntities.REGISTRY.register(bus);
+
+		UnrealWorldModFeatures.REGISTRY.register(bus);
 
 	}
 

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "unreal_world:block/strange_wood_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "unreal_world:block/strange_wood_log"
+    },
+    "axis=z": {
+      "model": "unreal_world:block/strange_wood_log",
+      "x": 90
+    }
+  }
+}

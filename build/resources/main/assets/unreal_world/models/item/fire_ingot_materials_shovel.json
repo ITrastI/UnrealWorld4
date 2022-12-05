@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "unreal_world:items/fireingotmaterials_shovel"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "unreal_world:blocks/strangewood_log_top",
+    "up": "unreal_world:blocks/strangewood_log_top",
+    "north": "unreal_world:blocks/testtexture",
+    "east": "unreal_world:blocks/testtexture",
+    "south": "unreal_world:blocks/testtexture",
+    "west": "unreal_world:blocks/testtexture",
+    "particle": "unreal_world:blocks/strangewood_log_top"
+  },
+  "render_type": "solid"
+}

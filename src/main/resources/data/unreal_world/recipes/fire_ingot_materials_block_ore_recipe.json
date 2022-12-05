@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "unreal_world:fire_ingot_materials_block"
+    }
+  ],
+  "result": {
+    "item": "unreal_world:fire_ingot_materials_ingot",
+    "count": 9
+  }
+}

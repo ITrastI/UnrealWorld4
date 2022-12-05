@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "unreal_world:blocks/toxic_planks"
+  },
+  "render_type": "solid"
+}

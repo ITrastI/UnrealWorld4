@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "unreal_world:toxic_planks"
+    },
+    "1": {
+      "item": "unreal_world:toxic_planks"
+    },
+    "2": {
+      "item": "unreal_world:toxic_planks"
+    }
+  },
+  "result": {
+    "item": "unreal_world:toxic_slab",
+    "count": 6
+  }
+}

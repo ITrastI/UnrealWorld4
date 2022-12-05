@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "unreal_world:blocks/fireingotmaterials_ore_block",
+    "particle": "unreal_world:blocks/fireingotmaterials_ore_block"
+  },
+  "render_type": "solid"
+}

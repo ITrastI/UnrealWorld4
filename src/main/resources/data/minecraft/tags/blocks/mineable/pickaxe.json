@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "unreal_world:fire_ingot_materials_ore",
+    "unreal_world:fire_ingot_materials_block"
+  ]
+}

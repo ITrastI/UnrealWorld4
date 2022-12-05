@@ -1,0 +1,600 @@
+{
+  "mod_elements": [
+    {
+      "name": "CloudBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloud_block"
+    },
+    {
+      "name": "CloudSlab",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloud_slab"
+    },
+    {
+      "name": "PieceOfCloud",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piece_of_cloud"
+    },
+    {
+      "name": "FireRune",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_rune"
+    },
+    {
+      "name": "WaterRune",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "water_rune"
+    },
+    {
+      "name": "WindRune",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wind_rune"
+    },
+    {
+      "name": "EarthRune",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "earth_rune"
+    },
+    {
+      "name": "Coin",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin"
+    },
+    {
+      "name": "CabbleStoneBricks",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cabble_stone_bricks"
+    },
+    {
+      "name": "EnderSteak",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_steak"
+    },
+    {
+      "name": "Ebaka",
+      "type": "livingentity",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ebaka"
+    },
+    {
+      "name": "ToxicSubstanceIghrokZakanchivaietIspolzovaniiePriedmieta",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_substance_ighrok_zakanchivaiet_ispolzovaniie_priedmieta",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToxicSubstance",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_substance"
+    },
+    {
+      "name": "SkySword",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_sword"
+    },
+    {
+      "name": "SkyHekmet",
+      "type": "armor",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_hekmet",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "StarIngot",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_ingot"
+    },
+    {
+      "name": "IfritCoal",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ifrit_coal"
+    },
+    {
+      "name": "StrangeWoodWood",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_wood_wood"
+    },
+    {
+      "name": "StrangeWoodLog",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_wood_log"
+    },
+    {
+      "name": "StrangeWoodLeaves",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_wood_leaves"
+    },
+    {
+      "name": "FireIngotMaterialsIngot",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_ingot"
+    },
+    {
+      "name": "FireIngotMaterialsOre",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_ore"
+    },
+    {
+      "name": "FireIngotMaterialsBlock",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_block"
+    },
+    {
+      "name": "FireIngotMaterialsOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_ore_block_recipe"
+    },
+    {
+      "name": "FireIngotMaterialsBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_block_ore_recipe"
+    },
+    {
+      "name": "FireIngotMaterialsOreSmelting",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_ore_smelting"
+    },
+    {
+      "name": "FireIngotMaterialsPickaxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_pickaxe"
+    },
+    {
+      "name": "FireIngotMaterialsAxe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_axe"
+    },
+    {
+      "name": "FireIngotMaterialsSword",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_sword"
+    },
+    {
+      "name": "FireIngotMaterialsShovel",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_shovel"
+    },
+    {
+      "name": "FireIngotMaterialsHoe",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_hoe"
+    },
+    {
+      "name": "FireIngotMaterialsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_pickaxe_recipe"
+    },
+    {
+      "name": "FireIngotMaterialsAxeRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_axe_recipe"
+    },
+    {
+      "name": "FireIngotMaterialsSwordRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_sword_recipe"
+    },
+    {
+      "name": "FireIngotMaterialsShovelRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_shovel_recipe"
+    },
+    {
+      "name": "FireIngotMaterialsHoeRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_hoe_recipe"
+    },
+    {
+      "name": "FireIngotMaterialsArmor",
+      "type": "armor",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "FireIngotMaterialsArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_armor_helmet_recipe"
+    },
+    {
+      "name": "FireIngotMaterialsArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_armor_body_recipe"
+    },
+    {
+      "name": "FireIngotMaterialsArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_armor_leggings_recipe"
+    },
+    {
+      "name": "FireIngotMaterialsArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_ingot_materials_armor_boots_recipe"
+    },
+    {
+      "name": "ToxicPlanks",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_planks"
+    },
+    {
+      "name": "ToxicLeaves",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_leaves"
+    },
+    {
+      "name": "ToxicStairs",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_stairs"
+    },
+    {
+      "name": "ToxicSlab",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_slab"
+    },
+    {
+      "name": "ToxicFence",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_fence"
+    },
+    {
+      "name": "ToxicFenceGate",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_fence_gate"
+    },
+    {
+      "name": "ToxicPressurePlate",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_pressure_plate"
+    },
+    {
+      "name": "ToxicButton",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_button"
+    },
+    {
+      "name": "ToxicItemsTag",
+      "type": "tag",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_items_tag"
+    },
+    {
+      "name": "ToxicWoodRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_wood_recipe"
+    },
+    {
+      "name": "ToxicPlanksRecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_planks_recipe"
+    },
+    {
+      "name": "ToxicStairsRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_stairs_recipe"
+    },
+    {
+      "name": "ToxicSlabRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_slab_recipe"
+    },
+    {
+      "name": "ToxicFenceRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_fence_recipe"
+    },
+    {
+      "name": "ToxicFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_fence_gate_recipe"
+    },
+    {
+      "name": "ToxicPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_pressure_plate_recipe"
+    },
+    {
+      "name": "ToxicButtonRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_button_recipe"
+    },
+    {
+      "name": "ToxicStickRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_stick_recipe"
+    },
+    {
+      "name": "ToxicLog",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_log"
+    },
+    {
+      "name": "ToxicWood",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toxic_wood"
+    },
+    {
+      "name": "ObsidianWand",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_wand"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.unreal_world.fire_rune": "Fire Rune",
+      "item.unreal_world.water_rune": "Water Rune",
+      "item.unreal_world.fire_ingot_materials_hoe": "FireIngotMaterials Hoe",
+      "block.unreal_world.toxic_fence": "Toxic Fence",
+      "item.unreal_world.coin": "Coin",
+      "item.unreal_world.sky_hekmet_helmet": "Sky Шлем",
+      "block.unreal_world.toxic_wood": "Toxic Log",
+      "item.unreal_world.sky_hekmet_boots": "Sky Ботинки",
+      "item.unreal_world.fire_ingot_materials_pickaxe": "FireIngotMaterials Pickaxe",
+      "item.unreal_world.fire_ingot_materials_armor_leggings": "FireIngotMaterials Leggings",
+      "item.unreal_world.sky_hekmet_chestplate": "Sky Кираса",
+      "item.unreal_world.fire_ingot_materials_armor_helmet": "FireIngotMaterials Helmet",
+      "item.unreal_world.star_ingot": "Star Ingot",
+      "block.unreal_world.strange_wood_log": "StrangeWood Log",
+      "item.unreal_world.sky_sword": "Sky Sword",
+      "block.unreal_world.toxic_fence_gate": "Toxic Fence Gate",
+      "block.unreal_world.fire_ingot_materials_block": "Block of FireIngotMaterials",
+      "block.unreal_world.toxic_stairs": "Toxic Stairs",
+      "item.unreal_world.fire_ingot_materials_armor_boots": "FireIngotMaterials Boots",
+      "block.unreal_world.toxic_button": "Toxic Button",
+      "block.unreal_world.cloud_slab": "Cloud Slab",
+      "item.unreal_world.wind_rune": "Wind Rune",
+      "block.unreal_world.fire_ingot_materials_ore": "FireIngotMaterials Ore",
+      "item.unreal_world.ender_steak": "Ender Steak",
+      "block.unreal_world.cabble_stone_bricks": "Cabble Stone Bricks",
+      "block.unreal_world.toxic_planks": "Toxic Planks",
+      "block.unreal_world.toxic_log": "Toxic Log",
+      "item.unreal_world.piece_of_cloud": "Piece Of Cloud",
+      "item.unreal_world.sky_hekmet_leggings": "Sky Поножи",
+      "item.unreal_world.ifrit_coal": "Ifrit Coal",
+      "block.unreal_world.cloud_block": "Cloud Block",
+      "item.unreal_world.ebaka_spawn_egg": "Ebaka Spawn Egg",
+      "block.unreal_world.strange_wood_leaves": "StrangeWood Leaves",
+      "item.unreal_world.toxic_substance": "Toxic Substance",
+      "block.unreal_world.toxic_leaves": "Toxic Leaves",
+      "entity.unreal_world.ebaka": "Ebaka",
+      "item.unreal_world.fire_ingot_materials_sword": "FireIngotMaterials Sword",
+      "item.unreal_world.fire_ingot_materials_ingot": "FireIngotMaterials",
+      "item.unreal_world.fire_ingot_materials_axe": "FireIngotMaterials Axe",
+      "block.unreal_world.strange_wood_wood": "StrangeWood Wood",
+      "item.unreal_world.earth_rune": "Earth Rune",
+      "block.unreal_world.toxic_slab": "Toxic Slab",
+      "item.unreal_world.fire_ingot_materials_shovel": "FireIngotMaterials Shovel",
+      "item.unreal_world.obsidian_wand": "Obsidian Wand",
+      "item.unreal_world.fire_ingot_materials_armor_chestplate": "FireIngotMaterials Chestplate",
+      "block.unreal_world.toxic_pressure_plate": "Toxic Pressure Plate"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "ToxicWood",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "unreal_world",
+    "modName": "Unreal World",
+    "version": "1.0.0",
+    "author": "Гельб, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": true,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.unrealworld",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200346416
+}

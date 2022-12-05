@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "unreal_world:toxic_planks"
+    }
+  ],
+  "result": {
+    "item": "unreal_world:toxic_button",
+    "count": 1
+  }
+}

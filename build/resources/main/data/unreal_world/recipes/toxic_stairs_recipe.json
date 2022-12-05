@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "unreal_world:toxic_planks"
+    },
+    "3": {
+      "item": "unreal_world:toxic_planks"
+    },
+    "4": {
+      "item": "unreal_world:toxic_planks"
+    },
+    "6": {
+      "item": "unreal_world:toxic_planks"
+    },
+    "7": {
+      "item": "unreal_world:toxic_planks"
+    },
+    "8": {
+      "item": "unreal_world:toxic_planks"
+    }
+  },
+  "result": {
+    "item": "unreal_world:toxic_stairs",
+    "count": 4
+  }
+}

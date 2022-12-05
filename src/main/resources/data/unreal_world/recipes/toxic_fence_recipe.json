@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "unreal_world:toxic_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "unreal_world:toxic_planks"
+    },
+    "3": {
+      "item": "unreal_world:toxic_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "unreal_world:toxic_planks"
+    }
+  },
+  "result": {
+    "item": "unreal_world:toxic_fence",
+    "count": 3
+  }
+}

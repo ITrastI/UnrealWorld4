@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "unreal_world:fire_ingot_materials_ingot"
+    },
+    "1": {
+      "item": "unreal_world:obsidian_wand"
+    },
+    "2": {
+      "item": "unreal_world:obsidian_wand"
+    }
+  },
+  "result": {
+    "item": "unreal_world:fire_ingot_materials_shovel",
+    "count": 1
+  }
+}

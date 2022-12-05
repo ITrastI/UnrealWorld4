@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "unreal_world:strange_wood_wood",
+    "unreal_world:strange_wood_log",
+    "unreal_world:toxic_planks"
+  ]
+}
